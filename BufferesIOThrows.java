@@ -1,7 +1,7 @@
 import java.io.*;
-class BufferedIO
+class BufferedIOX
 {
-    public static void main(String A[])
+    public static void main(String A[])  throws IOException
     {
         BufferedReader bobj = new BufferedReader(new InputStreamReader(System.in));
 
@@ -10,4 +10,4 @@ class BufferedIO
 
         System.out.println("Hello"+name);
     }
-}
+}+
