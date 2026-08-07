@@ -1,4 +1,4 @@
-final class Demo
+class Demo
 {
     public void fun()
     { System.out.println("Inside demo Fun"); }
@@ -7,18 +7,19 @@ final class Demo
     { System.out.println("Inside final demo gun"); }
 }
 
-class Hello extends Demo          //Error
+class Hello extends Demo
 {
     public void gun()
-    { System.out.println("Inside Hello Gun"); }
+    {
+         System.out.println("Inside Hello Gun");
+    }
 }
-
-class final_class
+class final_method
 {
     public static void main (String A[])
     {
-        Demo dobj = new Demo();        //Allowed
         Hello hobj = new Hello();
-
     } 
 }
+
+//error
